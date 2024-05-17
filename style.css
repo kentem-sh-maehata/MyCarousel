@@ -1,1 +1,6 @@
-/*# sourceMappingURL=style.css.map */
+.container {
+  width: 80%;
+  height: 220px;
+  margin: 16px auto;
+  outline: 8px solid red;
+}/*# sourceMappingURL=style.css.map */
