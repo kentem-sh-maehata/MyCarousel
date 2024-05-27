@@ -11,6 +11,7 @@
   padding: 0;
   height: 100%;
   display: flex;
+  transition: transform 0.3s;
 }
 .container ul li {
   height: 100%;
@@ -24,11 +25,25 @@
 }
 .container #prev, .container #next {
   position: absolute;
-  top: 100px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  font-size: 24px;
+  padding: 0 8px 4px;
+  cursor: pointer;
+}
+.container #prev:hover, .container #next:hover {
+  opacity: 0.8;
 }
 .container #prev {
   left: 0;
 }
 .container #next {
   right: 0;
+}
+
+.hidden {
+  display: none;
 }/*# sourceMappingURL=style.css.map */
